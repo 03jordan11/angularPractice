@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: ccitestsite
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E55DA671E6B4A1DBCED7B5D2B237814 }}
-        package: .
+        package: ./dist/recipeApp
 
